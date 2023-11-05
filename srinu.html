@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+<link rel="stylesheet" href="home.css">
+<style>
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+        width: 100%;
+        padding: 1px;
+         /* This enables scrolling if content overflows */
+        max-height: 600px; /* Set a maximum height for the container */
+      margin-top: 40px;
+
+     
+     
+       /* Adjust as needed */
+  }
+  *{
+    margin: 0;
+    padding: 0;
+}
+  .btn{
+    border-radius: 50px;
+  }
+  h1{
+    text-align: center;
+    color: #ccc;
+    display: inline;
+  }
+  .card {
+    flex: 1;
+    max-width: 300px; /* Adjust as needed */
+    border: 5px solid #ccc;
+    margin: 50px;
+    padding: 50px;
+    box-shadow: 0px 2px 4px rgba(250, 245, 245, 0.767);
+    border-radius: 50px;
+  }
+ 
+  .card img {
+    max-width: 100%;
+    height: auto;
+   
+  }
+ 
+  .card-content {
+    padding: 5px;
+  }
+ 
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .card {
+      max-width: 100%; /* Full width on smaller screens */
+    }
+  }
+  .navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+}
+.menu{
+    width: 450px;
+    height: 80px;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 155px;
+    margin-top: 25px;
+    font-size: 22px;
+    color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: blue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("https://t4.ftcdn.net/jpg/03/84/36/33/360_F_384363399_bownxk2gIFVHAgJvkVHMEzVTbDPqXxey.jpg");
+    background-position: center;
+    background-size: cover;
+    height:150vh;
+   
+
+}
+h2{
+    color: white;
+}
+.image{
+   
+   
+    width: 100%; /* Make images fill the container width */
+   height: auto; /* Maintain aspect ratio */
+   object-fit: cover; /* Scale and crop images to cover the container */
+
+   
+  }
+  .btn{
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+    border-radius: 100px;
+    position: relative;
+    transition:.4s ease-in;
+  }
+  .scr{
+    color: whitesmoke;
+    font-size: 40px;
+    margin-bottom: 40px;
+
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+   
+ }
+ .button:hover{
+  background: rgb(231, 172, 10);
+  box-shadow: inset -10.5em 0 0 0 #ff96ad,inset 10,5em 0 0 0 #ff96ad;
+ }
+ .card:hover{
+  background-color: yellowgreen;
+ }
+ .card-containerr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+      width: 100%;
+      padding: 1px;
+       /* This enables scrolling if content overflows */
+      max-height: 600px; /* Set a maximum height for the container */
+    margin-top: 40px;
+   
+
+   
+   
+     /* Adjust as needed */
+}
+.cardd{
+  flex: 1;
+  max-width: 300px; /* Adjust as needed */
+ 
+  margin: 50px;
+  padding: 50px;
+  /*box-shadow: 0px 2px 4px rgba(250, 245, 245, 0.767);*/
+  border-radius: 75px;
+}
+.cardd img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+ 
+}
+
+.cardd-content {
+  padding: 5px;
+}
+hr{
+  color: aliceblue;
+}
+.head{
+  text-align: center;
+  align-items: center;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.animated-text {
+  animation: fadeIn 3s ease-in-out;
+  color: red;
+}
+
+
+.info-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .info-box {
+            flex: 1;
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .info-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-content-main p{
+          font-size: 30px;
+        }
+</style>
+
+<link
+
+href="https://fonts.googleapis.com/css?? family=Poppins:ital, wght@0, 288; 8,488; 8,688;1,288; 1,488; 1,680&display=swap"
+
+rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+    <div class="navbar">
+        <div class="icon">
+           
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="srinu.html">ABOUT</a></li>
+                <li><a href="srinu.html">CONTACT</a></li>
+                <li><a href="srinu.html">REPRESENTATORS</a></li>
+            </ul>
+        </div>
+        </div>
+       
+        <div class="scr">
+          <div class="card-container">
+              <div class="card">
+                  <div class="img">
+                      <img src="https://protium.co.in/wp-content/uploads/2022/12/How-Can-Lenders-Make-the-Most-of-DSAs-Operations.png" alt="Lenders Image">
+                  </div>
+                  <div class="card-content-main">
+                      <h2>Lenders</h2>
+                      <p>
+                          Lenders play a crucial role in providing financial support to various projects and individuals. They offer loans to achieve their goals.
+                      </p>
+                      <div class="btn">
+                          <button onclick="location.href='labor s.html';" class="button"><a href="srinu.html">Learn More</a></button>
+                      </div>
+                  </div>
+                  <div class="additional-info">
+                      
+                  </div>
+              </div>
+
+              <div class="card">
+                  <div class="img">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4weja4quwBjbJ_Zx--nPfNzIF1bJgabD5qQ&usqp=CAU" alt="Advance Technologies Image">
+                  </div>
+                  <div class="card-content-main">
+                      <h2>Advance Technologies</h2>
+                      <p>
+                          Advanced technologies have revolutionized various industries, offering innovative solutions and improving efficiency.
+                      </p>
+                      <div class="btn">
+                          <button onclick="location.href='labor s.html';" class="button"><a href="srinu.html">Learn More</a></button>
+                      </div>
+                  </div>
+                  <div class="additional-info">
+                      
+                  </div>
+              </div>
+
+              <div class="card">
+                  <div class="img">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH5Ez2x24Sy2iEyt67_7ylFKK3z9KApa681w&usqp=CAU" alt="Weather Image">
+                  </div>
+                  <div class="card-content-main">
+                      <h2>Weather</h2>
+                      <p>
+                          Weather conditions have a significant impact on agriculture, transportation, and daily life. Understanding and predicting the weather is crucial for planning and safety.
+                      </p>
+                      <div class="btn">
+                          <button onclick="location.href='labor s.html';" class="button"><a href="srinu.html">Learn More</a></button>
+                      </div>
+                  </div>
+                  <div class="additional-info">
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
